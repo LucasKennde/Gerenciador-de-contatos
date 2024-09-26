@@ -1,0 +1,59 @@
+.btn-primary {
+  padding: 16px 24px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(7, 150, 211, 1) 0%,
+    rgba(83, 192, 240, 1) 100%
+  );
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+}
+.btn-second {
+  padding: 16px 24px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(226, 246, 255) 0%,
+    rgb(235, 249, 255) 100%
+  );
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(83, 192, 240, 1);
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+
+  .btn-excluir {
+    &:hover {
+      svg {
+        fill: rgb(247, 45, 45) !important;
+      }
+    }
+  }
+  .btn-editar {
+    &:hover {
+      svg {
+        fill: rgba(7, 150, 211, 1) !important;
+      }
+    }
+  }
+  button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+}

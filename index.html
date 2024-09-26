@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de contatos</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header class="wrapper">
+      <div class="container header">
+        <h1>logo</h1>
+        <!-- <h2>Bem vindo de volta, Lucas</h2> -->
+        <h4>Segunda, 01 de dezembro de 2025</h4>
+      </div>
+    </header>
+    <main class="wrapper">
+      <div class="container main">
+        <h1>Gerenciamento de contatos</h1>
+        <form action="#" id="form">
+          <input type="text" placeholder="Nome" name="nome" id="nome" />
+          <input
+            type="text"
+            placeholder="Sobrenome"
+            name="sobrenome"
+            id="sobrenome"
+          />
+          <input type="text" placeholder="E-mail" name="email" id="email" />
+          <input type="text" placeholder="Número" name="numero" id="numero" />
+          <button class="btn btn-primary">Cadastrar</button>
+        </form>
+        <section id="contatos">
+          <h1>Contatos</h1>
+          <div id="resultado"></div>
+        </section>
+      </div>
+      <div class="modalEditar wrapper">
+        <form action="#" id="formEditar">
+          <h1>Editar contato</h1>
+          <input type="text" placeholder="Nome" name="nome" id="nomeEditar" />
+          <input
+            type="text"
+            placeholder="Sobrenome"
+            name="sobrenome"
+            id="sobrenomeEditar"
+          />
+          <input
+            type="text"
+            placeholder="E-mail"
+            name="email"
+            id="emailEditar"
+          />
+          <input
+            type="text"
+            placeholder="Número"
+            name="numero"
+            id="numeroEditar"
+          />
+          <button class="btn btn-second">Editar</button>
+        </form>
+      </div>
+    </main>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
